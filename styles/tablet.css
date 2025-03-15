@@ -1,0 +1,54 @@
+@media (770px <= width <= 1048px) {
+  .container {
+    padding-top: 250px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 560px;
+  }
+  .container header {
+    position: relative;
+    height: 400px;
+    width: 70%;
+    padding: 40px 60px;
+  }
+  .container header .image-container {
+    position: absolute;
+    top: -100px;
+    right: -50px;
+    background-image: url('../images/header-image.webp');
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+  }
+
+  .container header article {
+    width: 60%;
+    > h1 {
+      font-size: 30px;
+      font-weight: 250;
+    }
+    > p {
+      font-size: 12px;
+    }
+  }
+  .container header aside {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 100px !important;
+  }
+  /* footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 450px;
+  } */
+}

@@ -1,0 +1,61 @@
+@media(min-width: 1050px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    padding: 75px;
+    position: relative;
+    padding-bottom: 550px;
+  }
+  
+  .container header {
+    position: relative;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .container header .image-container {
+    width: 30%;
+    max-width: 500px;
+    height: 110%;
+    margin-left: -15px;
+    background-image: url("../images/header-image.webp");
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+  }
+  
+  .container header article {
+    width: 80%;
+    height: 100%;
+    padding: 30px;
+  }
+  
+  .container header article h1 {
+    font-size: 38px;
+    font-weight: 300;
+  }
+  
+  .container header aside {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 100px;
+    height: 60px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container main h1 {
+    font-size: 40px;
+    font-weight: 250;
+  } 
+
+  
+}
